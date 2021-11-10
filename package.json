@@ -1,0 +1,17 @@
+{
+  "name": "contactform",
+  "version": "1.0.0",
+  "description": "this is the real estate site",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon src/app.js -e js,hbs"
+  },
+  "author": "riaz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "mongoose": "^6.0.12"
+  }
+}
